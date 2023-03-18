@@ -28,12 +28,12 @@ class AddComplex {
 		Complex c2 = new Complex(0 , 0);
 		Complex c3 = new Complex(0 , 0);
 		
-		System.out.println("Enter the First complex number :: \nReal :");
+		System.out.println("-- Enter the First complex number --\n\nReal :");
 		c1.real = s.nextInt();
 		System.out.println("imaginary :");
 		c1.img = s.nextInt();
 		
-		System.out.println("Enter the Second complex number :: \nReal :");
+		System.out.println("-- Enter the Second complex number --\n\nReal :");
 		c2.real = s.nextInt();
 		System.out.println("imaginary :");
 		c2.img = s.nextInt();
