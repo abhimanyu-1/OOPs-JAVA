@@ -7,6 +7,7 @@ class Person{
 	int age;
 	Scanner sc=new Scanner(System.in);
 	Person(){
+		System.out.println("--------------------");
 		System.out.println("enter the name:");
 		name=sc.nextLine();
 		System.out.println("enter the gender:");
@@ -74,6 +75,7 @@ class Teacher extends Employee{
 					System.out.println("Teacher SUBJECT is       : "+subject);
 					System.out.println("Teacher DEPARTMENT is    : "+dept);
 					System.out.println("Teacher ID is            : "+techid);
+					System.out.println("--------------------------------------");
 				}
 }
 class Main{
@@ -82,10 +84,14 @@ class Main{
 		Scanner sc =  new Scanner(System.in);
 		int n = sc.nextInt();
 		Teacher t[]=new Teacher[n];
-		
 		for(int i=0;i<n;i++)
 		{
 			t[i]=new Teacher();
+		}
+		System.out.println("LIST :");
+		System.out.println("--------------------------------------");
+		for(int i=0;i<n;i++)
+		{
 			t[i].print();
 		}
 	}
